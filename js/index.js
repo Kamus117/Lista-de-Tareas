@@ -12,7 +12,7 @@ const saveLocalStorage = () =>{
 const createTask = (task) => {
     const {name, id} = task;
 
-    return `<li>${name}<img class="delete-btn" src="../assets/delete.svg" alt="boton de borrar" data-id="${id}"></li>`
+    return `<li>${name}<img class="delete-btn" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/1200px-Eo_circle_green_checkmark.svg.png" alt="boton de borrar" data-id="${id}"></li>`
 }
 
 const renderTaskList = () =>{

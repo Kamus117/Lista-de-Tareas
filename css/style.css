@@ -94,6 +94,7 @@ ul{
 li{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 80%;
 
     border-radius: 20px;
@@ -113,6 +114,7 @@ li{
 }
 .delete-btn{
     border-radius: 50px;
+    height: 20px;
 }
 .deleteAll-btn:hover, .delete-btn:hover{
     box-shadow: white 0 0 10px;
